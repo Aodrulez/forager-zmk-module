@@ -1,4 +1,4 @@
-# Forager ZMK Module
+# Forager ZMK Module - Aodrulez
 
 This is the ZMK module for [the Forager keyboard](https://github.com/carrefinho/forager).
 
