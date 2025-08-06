@@ -95,16 +95,19 @@
         combo_gameMode {
             bindings = <&tog 4>;
             key-positions = <30 33>;
+            layers = <0>;
         };
 
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
+            layers = <0>;
         };
 
         combo_escape {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
+            layers = <0>;
         };
     };
 
