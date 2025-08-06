@@ -153,7 +153,7 @@
             label = "Right";
         };
 
-        TRI {
+        Tri {
             bindings = <
 &sys_reset   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &soft_off         &kp F10  &kp F1  &kp F2  &kp F3  &sys_reset
 &bootloader  &none         &none         &none         &none             &kp F11  &kp F4  &kp F5  &kp F6  &bootloader
@@ -161,10 +161,10 @@
                                          &trans        &trans            &trans   &trans
             >;
 
-            label = "TRI";
+            label = "Tri";
         };
 
-        GAME {
+        Game {
             bindings = <
 &mt TAB ESCAPE    &kp Q  &kp W  &kp E    &kp R        &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT    &kp A  &kp S  &kp D    &kp F        &trans  &trans  &trans  &trans  &trans
@@ -172,7 +172,7 @@
                                 &mt G B  &kp SPACE    &trans  &trans
             >;
 
-            label = "GAME";
+            label = "Game";
         };
     };
 };
