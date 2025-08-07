@@ -94,7 +94,7 @@
 
         combo_gameMode {
             bindings = <&tog 4>;
-            key-positions = <30 33>;
+            key-positions = <31 32>;
             layers = <0>;
         };
 
@@ -125,10 +125,10 @@
 
         Base {
             bindings = <
-&kp B         &kp L            &kp D            &kp W                 &kp Z          &sqtdqt      &kp F          &kp O        &kp U             &kp J
-&hml LCTRL N  &hml LEFT_ALT R  &hml LEFT_GUI T  &kp S                 &kp G          &kp Y        &kp H          &hmr RGUI A  &hmr RIGHT_ALT E  &hmr RCTRL I
-&kp Q         &kp X            &kp M            &kp C                 &kp V          &kp K        &kp P          &dotcolon    &mindqt           &commsemi
-                                                &mt LEFT_SHIFT SPACE  &lt 1 ENTER    &lt 2 ENTER  &kp BACKSPACE
+&kp B         &kp L            &kp D          &kp W        &kp Z              &sqtdqt        &kp F        &kp O          &kp U             &kp J
+&hml LCTRL N  &hml LEFT_ALT R  &hml LSHIFT T  &hml LGUI S  &kp G              &kp Y          &hmr RGUI H  &hmr RSHIFT A  &hmr RIGHT_ALT E  &hmr RCTRL I
+&kp Q         &kp X            &kp M          &kp C        &kp V              &kp K          &kp P        &dotcolon      &mindqt           &commsemi
+                                              &lt 1 SPACE  &mt LS(V) LS(C)    &kp BACKSPACE  &lt 2 ENTER
             >;
 
             label = "Base";
@@ -160,7 +160,7 @@
             bindings = <
 &sys_reset   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &soft_off         &kp F10  &kp F1  &kp F2  &kp F3  &sys_reset
 &bootloader  &none         &none         &none         &none             &kp F11  &kp F4  &kp F5  &kp F6  &bootloader
-&bt BT_CLR   &none         &none         &none         &studio_unlock    &kp F12  &kp F7  &kp F8  &kp F9  &none
+&none        &none         &bt BT_CLR    &none         &studio_unlock    &kp F12  &kp F7  &kp F8  &kp F9  &none
                                          &trans        &trans            &trans   &trans
             >;
 
