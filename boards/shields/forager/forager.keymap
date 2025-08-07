@@ -95,7 +95,7 @@
         combo_gameMode {
             bindings = <&tog 4>;
             key-positions = <31 32>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         combo_tab {
@@ -128,7 +128,7 @@
 &kp B         &kp L            &kp D          &kp W        &kp Z              &sqtdqt        &kp F        &kp O          &kp U             &kp J
 &hml LCTRL N  &hml LEFT_ALT R  &hml LSHIFT T  &hml LGUI S  &kp G              &kp Y          &hmr RGUI H  &hmr RSHIFT A  &hmr RIGHT_ALT E  &hmr RCTRL I
 &kp Q         &kp X            &kp M          &kp C        &kp V              &kp K          &kp P        &dotcolon      &mindqt           &commsemi
-                                              &lt 1 SPACE  &mt LS(V) LS(C)    &kp BACKSPACE  &lt 2 ENTER
+                                              &lt 1 SPACE  &mt LC(V) LC(C)    &kp BACKSPACE  &lt 2 ENTER
             >;
 
             label = "Base";
