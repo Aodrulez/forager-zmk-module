@@ -109,6 +109,12 @@
             key-positions = <1 2>;
             layers = <0>;
         };
+
+        combo_shift_delete {
+            bindings = <&kp LS(DELETE)>;
+            key-positions = <21 22>;
+            layers = <0>;
+        };
     };
 
     macros {
