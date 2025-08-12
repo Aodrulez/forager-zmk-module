@@ -61,10 +61,10 @@
             label = "dotcolon";
         };
 
-        mindqt: shift_minus_dquote {
+        bslashfslash: shift_bslash_fslash {
             compatible = "zmk,behavior-mod-morph";
-            label = "mindqt";
-            bindings = <&kp MINUS>, <&kp DOUBLE_QUOTES>;
+            label = "bslashfslash";
+            bindings = <&kp BSLH>, <&kp FSLH>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -133,7 +133,7 @@
             bindings = <
 &kp B         &kp L            &kp D          &kp W        &kp Z              &sqtdqt        &kp F        &kp O          &kp U             &kp J
 &hml LCTRL N  &hml LEFT_ALT R  &hml LSHIFT T  &hml LGUI S  &kp G              &kp Y          &hmr RGUI H  &hmr RSHIFT A  &hmr RIGHT_ALT E  &hmr RCTRL I
-&kp Q         &kp X            &kp M          &kp C        &kp V              &kp K          &kp P        &dotcolon      &mindqt           &commsemi
+&kp Q         &kp X            &kp M          &kp C        &kp V              &kp K          &kp P        &dotcolon      &commsemi         &bslashfslash
                                               &lt 1 SPACE  &mt LC(V) LC(C)    &kp BACKSPACE  &lt 2 ENTER
             >;
 
