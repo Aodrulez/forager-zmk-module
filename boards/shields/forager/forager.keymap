@@ -1,3 +1,4 @@
+
 // Copyright (c) 2022 The ZMK Contributors
 // SPDX-License-Identifier: MIT
 
@@ -136,10 +137,10 @@
 
         Base {
             bindings = <
-&kp B         &kp L          &hml LEFT_ALT D  &hml LEFT_GUI W  &kp Z              &sqtdqt        &hmr RGUI F  &hmr RIGHT_ALT O  &kp U          &kp J
-&hml LCTRL N  &hml LSHIFT R  &kp T            &kp S            &kp G              &kp Y          &kp H        &kp A             &hmr RSHIFT E  &hmr RCTRL I
-&kp Q         &kp X          &kp M            &kp C            &kp V              &kp K          &kp P        &dotcolon         &commsemi      &fslashbslash
-                                              &lt 1 SPACE      &mt LC(V) LC(C)    &kp BACKSPACE  &lt 2 ENTER
+&kp B         &kp L          &hml LEFT_ALT D  &hml LEFT_GUI W  &kp Z                  &sqtdqt        &hmr RGUI F  &hmr RIGHT_ALT O  &kp U          &kp J
+&hml LCTRL N  &hml LSHIFT R  &kp T            &kp S            &kp G                  &kp Y          &kp H        &kp A             &hmr RSHIFT E  &hmr RCTRL I
+&kp Q         &kp X          &kp M            &kp C            &kp V                  &kp K          &kp P        &dotcolon         &commsemi      &fslashbslash
+                                              &lt 1 SPACE      &mt LC(LS(V)) LC(C)    &kp BACKSPACE  &lt 2 ENTER
             >;
 
             label = "Base";
@@ -148,8 +149,8 @@
         Left {
             bindings = <
 &kp INS     &kp N1  &kp N2  &kp N3  &none     &kp HOME   &none           &kp UP_ARROW    &none            &none
-&kp DEL     &kp N4  &kp N5  &kp N6  &kp N0    &kp EQUAL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SEMI
-&caps_word  &kp N7  &kp N8  &kp N9  &none     &none      &none           &kp COLON       &none            &none
+&kp DEL     &kp N4  &kp N5  &kp N6  &kp N0    &kp EQUAL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
+&caps_word  &kp N7  &kp N8  &kp N9  &none     &none      &none           &kp COLON       &kp SEMICOLON    &none
                             &trans  &trans    &trans     &trans
             >;
 
